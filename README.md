@@ -1,7 +1,4 @@
 # AWS Cognito MCP Server
-
-<img src="https://d1.awsstatic.com/products/cognito/Amazon-Cognito.c3c9b2cb1da9c8ffe3e582d5e0748eed2be26378.png" alt="AWS Cognito Logo" width="250"/>
-
 A Model Context Protocol (MCP) server implementation that connects to AWS Cognito for authentication and user management. This server provides a set of tools for user authentication flows including sign-up, sign-in, password management, and more.
 
 ## Prerequisites
@@ -55,7 +52,7 @@ AWS_COGNITO_USER_POOL_CLIENT_ID=your-app-client-id
 
 The Inspector will provide a URL to access debugging tools in your browser.
 
-### Using with Claude Desktop
+## Using with Claude Desktop
 Before starting make sure [Node.js](https://nodejs.org/) is installed on your desktop for `npx` to work.
 1. Go to: Settings > Developer > Edit Config
 
