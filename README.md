@@ -76,7 +76,7 @@ Before starting make sure [Node.js](https://nodejs.org/) is installed on your de
 
 Claude Code is a command-line interface for Claude. To use this MCP server with Claude Code:
 
-1. Install Claude Code by following the instructions at [Claude Code Documentation](https://docs.anthropic.com/ko/docs/agents-and-tools/claude-code/overview)
+1. Install Claude Code by following the instructions at [Claude Code Documentation](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview)
 
 2. Add the MCP server to Claude Code:
 ```bash
