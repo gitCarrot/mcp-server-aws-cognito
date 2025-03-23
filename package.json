@@ -1,0 +1,49 @@
+{
+  "name": "@gitcarrot/mcp-server-aws-cognito",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "bin": {
+    "mcp-server-aws-cognito": "./build/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "postbuild": "chmod +x build/index.js",
+    "prepare": "npm run build",
+    "start": "node build/index.js",
+    "dev": "tsc --watch",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
+  },
+  "keywords": [
+    "aws",
+    "cognito",
+    "authentication",
+    "mcp",
+    "server"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "AWS Cognito authentication server for Model Context Protocol",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "amazon-cognito-identity-js": "^6.3.12",
+    "dotenv": "^16.4.7",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.11",
+    "typescript": "^5.8.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
