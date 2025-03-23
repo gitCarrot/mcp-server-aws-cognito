@@ -110,6 +110,3 @@ npm run inspector
 
 Now you can use the AWS Cognito authentication tools with Claude!
 
-## License
-
-ISC 
